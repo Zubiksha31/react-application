@@ -1,7 +1,7 @@
 import React from "react";
 import Map from "../assets/map.png";
 
-const Contactus = () => {
+const ContactUs = () => {
   return (
     <div>
       <div>
@@ -133,4 +133,4 @@ const Contactus = () => {
   );
 };
 
-export default Contactus;
+export default ContactUs;

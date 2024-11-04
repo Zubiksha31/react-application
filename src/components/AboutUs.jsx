@@ -2,7 +2,7 @@ import React from 'react'
 import Quarantee from '../assets/quarantee.png';
 import Money from '../assets/money.png';
 
-const Aboutus = () => {
+const AboutUs = () => {
   return (
     <div className=' md:overflow-x-hidden'>
       <div className=' text-center my-20 md:text-wrap md:mx-2'>
@@ -102,6 +102,6 @@ const Aboutus = () => {
   )
 }
 
-export default Aboutus
+export default AboutUs;
 
 
