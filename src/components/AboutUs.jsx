@@ -4,13 +4,13 @@ import Money from '../assets/money.png';
 
 const Aboutus = () => {
   return (
-    <div>
-      <div className=' text-center my-20 '>
-        <h1 className=' text-[15px] text-gray-500 mb-6'>Cash Zone – one of the Best Place to Sell Second hand mobile phones in Chennai and Other Electronic Gadgets for Instant Cash</h1>
-        <h1 className=' text-[15px] text-gray-500 '>Sell used Smartphone’s and second hand mobile in Chennai and /Old Electronics on cash zone and get the <br /> guaranteed selling price for qualifying electronics.</h1>
+    <div className=' md:overflow-x-hidden'>
+      <div className=' text-center my-20 md:text-wrap md:mx-2'>
+        <h1 className=' text-[15px] text-gray-500 mb-6'>Cash Zone - one of the Best Place to Sell Second hand mobile phones in Chennai and Other Electronic Gadgets for Instant Cash</h1>
+        <h1 className=' text-[15px] text-gray-500 '>Sell used Smartphone's and second hand mobile in Chennai and /Old Electronics on cash zone and get the <br /> guaranteed selling price for qualifying electronics.</h1>
       </div>
 
-      <div className=' flex justify-around'>
+      <div className=' flex justify-around md:flex-col md:w-full'>
         <div className=' flex-col'>
         <div>
           <h1 className=' text-left text-3xl mx-20 font-bold text-orange-800'>Why Choose Cash Zone :</h1>
@@ -26,13 +26,13 @@ const Aboutus = () => {
         </div>
         </div>
         <div>
-          <img src={Quarantee} alt="" />
+          <img src={Quarantee} alt="img" />
         </div>
       </div>
 
-      <div className=' flex justify-around'>
+      <div className=' flex justify-around md:flex-col '>
         <div>
-          <img className='m-6' src={Money} alt="" />
+          <img className='m-6 md:m-6 md:w-96 ' src={Money} alt="img" />
         </div>
         <div className=' m-6'>
           <h1 className=' font-bold text-3xl m-2'>How we work?</h1>
@@ -47,19 +47,7 @@ const Aboutus = () => {
       </div>
 
       <div className=' border box-border flex-col'>  
-      <div className=" flex justify-evenly mt-10 p-7">
-        <div> 
-          <ul className=" text-3xl leading-6 italic my-5">
-            <li>C</li>
-            <li>A</li>
-            <li>S</li>
-            <li>H</li>
-            <li>Z</li>
-            <li>O</li>
-            <li>N</li>
-            <li>E</li>
-          </ul>
-        </div>
+      <div className=" flex justify-evenly mt-10 p-7 md:flex-wrap">
         <div>
           <ul>
             <h1 className=" font-bold text-2xl">Menu</h1>
@@ -89,7 +77,7 @@ const Aboutus = () => {
             <li className=" font-thin mb-2">Sell Sell Television</li>
             <li className=" font-thin mb-2"> Sell Sell Tablet</li>
             <li className=" font-thin mb-2">Sell Sell Air Conditioner</li>
-            <li className=" font-thin mb-2">Sell Sell Smart Speaker</li>
+            <li className=" font-thin mb-2">Sell Smart Speaker</li>
             <li className=" font-thin mb-2">Sell Sell Camera</li>
           </ul>
         </div>
@@ -105,8 +93,9 @@ const Aboutus = () => {
           </ul>
         </div>
       </div>
-      <h1 className=' text-center font-medium'>copyrights 2020.cashzone, All rights reserved.</h1>
+      <h1 className=' text-center font-medium'>copyrights 2024.cashzone, All rights reserved.</h1>
       <h1 className=' text-center font-medium m-2 text-[13px]'>Powered by Team Tweaks</h1> 
+     
       </div> 
 
     </div>

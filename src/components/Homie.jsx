@@ -15,8 +15,8 @@ import Map from "../assets/map.png";
 
 const Homie = () => {
   return (
-    <div className=" overflow-x-hidden">
-      <div>
+    <div className=" overflow-x-hidden ">
+      <div className=" ">
         <h1 className=" font-thin text-black text-center text-3xl m-10">
           SELL YOUR GADGETS IN A SWIF
         </h1>
@@ -42,42 +42,66 @@ const Homie = () => {
             What would you like to do?
           </h1>
         </div>
-        <div className=" flex justify-around m-16">
+        <div className=" flex justify-around m-16 md:flex-col md:-mt-2 ">
           <div>
-            <img className=" w-14 h-12" src={Selltelevition} alt="" />
-            <p className="mt-6 text-center">Sell Televition</p>
+            <img
+              className=" w-14 h-12 md:w-full md:h-full "
+              src={Selltelevition}
+              alt=""
+            />
+            <p className="mt-6 text-center md:-mt-6 md:mb-4">Sell Televition</p>
           </div>
           <div>
-            <img className="  w-14 h-12" src={SellTablet} alt="" />
-            <p className="mt-6 text-center">Sell Tablet</p>
+            <img
+              className="  w-14 h-12 md:w-full md:h-44"
+              src={SellTablet}
+              alt=""
+            />
+            <p className="mt-6 text-center md:mb-4">Sell Tablet</p>
           </div>
           <div>
-            <img className=" w-14 h-12" src={Sellmobilephone} alt="" />
-            <p className="mt-6 text-center">Sell Mobilephone</p>
+            <img
+              className=" w-14 h-12 md:w-full md:h-full"
+              src={Sellmobilephone}
+              alt=""
+            />
+            <p className="mt-6 text-center md:mb-4">Sell Mobilephone</p>
           </div>
           <div>
-            <img className="  w-14 h-12" src={Selllaptop} alt="" />
-            <p className="mt-6 text-center">Sell Laptop</p>
+            <img
+              className="  w-14 h-12 md:w-full md:h-full"
+              src={Selllaptop}
+              alt=""
+            />
+            <p className="mt-6 text-center md:mb-4">Sell Laptop</p>
           </div>
           <div>
-            <img className="  w-14 h-12" src={SellGaming} alt="" />
-            <p className="mt-6 text-center">Sell Gaming</p>
+            <img
+              className="  w-14 h-12 md:w-full md:h-full"
+              src={SellGaming}
+              alt=""
+            />
+            <p className="mt-6 text-center md:mb-4">Sell Gaming</p>
           </div>
           <div>
-            <img className="  w-14 h-12" src={Desktop} alt="" />
-            <p className="mt-6 text-center">Desktop</p>
+            <img
+              className="  w-14 h-12 md:w-full md:h-full"
+              src={Desktop}
+              alt=""
+            />
+            <p className="mt-6 text-center ">Desktop</p>
           </div>
         </div>
         <div className="flex justify-center">
-          <button className=" flex justify-center font-bold text-white border rounded-3xl box-content p-4 bg-black">
+          <button className=" flex justify-center font-bold text-white border rounded-3xl box-content p-4 bg-black md:-mt-10">
             View More
           </button>
         </div>
       </div>
 
       <div className="m-4">
-        <div className=" flex justify-center mx-36 gap-10">
-          <div className=" border-none bg-slate-100 p-4  rounded-3xl">
+        <div className=" flex justify-center mx-36 gap-10 md:flex-col md:w-full md:m-0 ">
+          <div className=" border-none bg-slate-100 p-4 rounded-3xl">
             <img className=" m-2" src={Imageone} alt="" />
             <h1 className=" font-bold m-2">Select Your Device</h1>
             <p className="mx-2">
@@ -105,23 +129,23 @@ const Homie = () => {
 
       <div>
         <div>
-          <h1 className=" text-left text-2xl mx-20 my-14">
+          <h1 className=" text-left text-2xl mx-20 my-14 md:flex-wrap md:text-center">
             From our blog latest tech news
           </h1>
         </div>
-        <div className=" flex justify-center gap-7">
-          <div className=" flex-col">
+        <div className=" flex justify-center gap-7 md:flex-col md:items-center">
+          <div className=" ">
             <img className=" w-80 h-52 rounded-3xl" src={Sell} alt="" />
           </div>
-          <div className=" flex-col">
+          <div className=" ">
             <img className=" w-80 h-52 rounded-3xl" src={Sellphone} alt="" />
           </div>
-          <div className=" flex-col">
+          <div className=" ">
             <img className=" w-80 h-52 rounded-3xl" src={Sellphonetwo} alt="" />
           </div>
         </div>
         <hr className="  my-8 " />
-        <div className="  text-wrap flex justify-center gap-7 mx-28 my-4 ">
+        <div className="  text-wrap flex justify-center gap-7 mx-28 my-4  md:flex-col md:w-full md:ml-2 md:mr-4 md:flex-wrap md:text-wrap">
           <div className=" text-wrap border-none bg-slate-100 p-4 rounded-3xl leading-relaxed">
             <h1 className=" font-bold">
               Samsung Galaxy Tab A9 and Tab A9+ Launched In India: Check
@@ -164,94 +188,99 @@ const Homie = () => {
       </div>
 
       <div>
-        <h1 className=" font-extrabold text-3xl text-center m-6">Our achievement
+        <h1 className=" font-extrabold text-3xl text-center m-6">
+          Our achievement
         </h1>
-        <div className=" flex justify-center gap-2 m-6 ">
-        <div className=" font-extrabold border-none bg-neutral-800 text-white box-content rounded-l-md pr-20 pl-6 py-6">
-           <h1 className=" text-center">84.4K+ <br />
-           Happy customers of our Website</h1>
+        <div className=" flex justify-center gap-2 m-6  md:flex-col ">
+          <div className=" font-extrabold border-none bg-neutral-800 text-white box-content rounded-l-md pr-20 pl-6 py-6">
+            <h1 className=" text-center">
+              84.4K+ <br />
+              Happy customers of our Website
+            </h1>
+          </div>
+          <div className=" font-extrabold border box-content border-none bg-neutral-800 rounded-r-md text-white pr-20 pl-6 py-6">
+            <h1 className=" text-center">
+              ₹ 121.7M + <br />
+              Cash paid to our valuable customers
+            </h1>
+          </div>
         </div>
-        <div className=" font-extrabold border box-content border-none bg-neutral-800 rounded-r-md text-white pr-20 pl-6 py-6">
-          <h1 className=" text-center">₹ 121.7M + <br />
-          Cash paid to our valuable customers</h1>
-        </div>
-        </div> 
-     </div>
+      </div>
 
       <div>
-         <div>
-          <h1 className=" mx-24 my-10 font-bold text-2xl text-left ">We are live in below cities</h1>
-         </div>
+        <div>
+          <h1 className=" mx-24 my-10 font-bold text-2xl text-left md:text-center md:text-wrap">
+            We are live in below cities
+          </h1>
+        </div>
 
-         <div>
-          <img className=" w-[90%] h-auto mb- mx-[60px] rounded-3xl " src={Map} alt="" />
-         </div>
+        <div>
+          <img
+            className=" w-[90%] h-auto mb- mx-[60px] rounded-3xl md:w-full md:m-0 md:rounded-sm"
+            src={Map}
+            alt=""
+          />
+        </div>
       </div>
 
-
-      <div className=' border box-border flex-col'>  
-      <div className=" flex justify-evenly mt-10 p-7">
-        <div> 
-          <ul className=" text-3xl leading-6 italic my-5">
-            <li>C</li>
-            <li>A</li>
-            <li>S</li>
-            <li>H</li>
-            <li>Z</li>
-            <li>O</li>
-            <li>N</li>
-            <li>E</li>
-          </ul>
+      <div className=" border box-border flex-col">
+        <div className=" flex justify-evenly mt-10 p-7 md:flex-wrap ">
+          <div>
+            <ul>
+              <h1 className=" font-bold text-2xl">Menu</h1>
+              <li className=" font-thin my-2">Home</li>
+              <li className=" font-thin mb-2">About us</li>
+              <li className=" font-thin mb-2">Repair</li>
+              <li className=" font-thin mb-2">Contact us</li>
+              <li className=" font-thin mb-2">FAQ</li>
+              <li className=" font-thin mb-2">Privacy-Policy</li>
+              <li className=" font-thin mb-2">Terms and Conditions</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <h1 className=" font-bold text-2xl">Services</h1>
+              <li className=" font-thin my-2">Sell Sell Laptop</li>
+              <li className=" font-thin mb-2">Sell Sell Mobile</li>
+              <li className=" font-thin mb-2"> Sell Sell Earbuds</li>
+              <li className=" font-thin mb-2">Sell Sell Smart Watch</li>
+              <li className=" font-thin mb-2">Sell Sell Smart Speaker</li>
+              <li className=" font-thin mb-2">Sell Sell Desktop</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li className=" font-thin my-2">Sell Sell Mobile Phone</li>
+              <li className=" font-thin mb-2">Sell Sell Television</li>
+              <li className=" font-thin mb-2"> Sell Sell Tablet</li>
+              <li className=" font-thin mb-2">Sell Sell Air Conditioner</li>
+              <li className=" font-thin mb-2">Sell Sell Smart Speaker</li>
+              <li className=" font-thin mb-2">Sell Sell Camera</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <h1 className=" font-bold text-2xl">Contact us</h1>
+              <li className=" font-thin my-2">CashZone</li>
+              <li className=" font-thin mb-2 mx-2">
+                No.57/25, PV.Kovil Street ,
+              </li>
+              <li className=" font-thin mb-2 mx-2"> Mylapore</li>
+              <li className=" font-thin mb-2 mx-2">
+                Chennai Tamil nadu - 600004
+              </li>
+              <li className=" font-thin mb-2">90*****345</li>
+              <li className=" font-thin mb-2">xxx@cashzone.in</li>
+            </ul>
+          </div>
         </div>
-        <div>
-          <ul>
-            <h1 className=" font-bold text-2xl">Menu</h1>
-            <li className=" font-thin my-2">Home</li>
-            <li className=" font-thin mb-2">About us</li>
-            <li className=" font-thin mb-2">Repair</li>
-            <li className=" font-thin mb-2">Contact us</li>
-            <li className=" font-thin mb-2">FAQ</li>
-            <li className=" font-thin mb-2">Privacy-Policy</li>
-            <li className=" font-thin mb-2">Terms and Conditions</li>
-          </ul>
-        </div>
-        <div>
-          <ul>
-            <h1 className=" font-bold text-2xl">Services</h1>
-            <li className=" font-thin my-2">Sell Sell Laptop</li>
-            <li className=" font-thin mb-2">Sell Sell Mobile</li>
-            <li className=" font-thin mb-2"> Sell Sell Earbuds</li>
-            <li className=" font-thin mb-2">Sell Sell Smart Watch</li>
-            <li className=" font-thin mb-2">Sell Sell Smart Speaker</li>
-            <li className=" font-thin mb-2">Sell Sell Desktop</li>
-          </ul>
-        </div>
-        <div>
-          <ul>
-            <li className=" font-thin my-2">Sell Sell Mobile Phone</li>
-            <li className=" font-thin mb-2">Sell Sell Television</li>
-            <li className=" font-thin mb-2"> Sell Sell Tablet</li>
-            <li className=" font-thin mb-2">Sell Sell Air Conditioner</li>
-            <li className=" font-thin mb-2">Sell Sell Smart Speaker</li>
-            <li className=" font-thin mb-2">Sell Sell Camera</li>
-          </ul>
-        </div>
-        <div>
-          <ul>
-            <h1 className=" font-bold text-2xl">Contact us</h1>
-            <li className=" font-thin my-2">CashZone</li>
-            <li className=" font-thin mb-2 mx-2">No.57/25, PV.Kovil Street ,</li>
-            <li className=" font-thin mb-2 mx-2"> Mylapore</li>
-            <li className=" font-thin mb-2 mx-2">Chennai Tamil nadu - 600004</li>
-            <li className=" font-thin mb-2">90*****345</li>
-            <li className=" font-thin mb-2">xxx@cashzone.in</li>
-          </ul>
-        </div>
+        <h1 className=" text-center font-medium">
+          copyrights 2024.cashzone, All rights reserved.
+        </h1>
+        <h1 className=" text-center font-medium m-2 text-[13px]">
+          Powered by Team Tweaks
+        </h1>
       </div>
-      <h1 className=' text-center font-medium'>copyrights 2020.cashzone, All rights reserved.</h1>
-      <h1 className=' text-center font-medium m-2 text-[13px]'>Powered by Team Tweaks</h1> 
-      </div> 
-
     </div>
   );
 };
