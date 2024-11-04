@@ -4,9 +4,7 @@ import About from './pages/About'
 import React from 'react'
 import { Routes } from 'react-router-dom'
 import { Route } from 'react-router-dom'
-import Aboutus from './components/Aboutus'
 import RepairContact from './pages/RepairContact'
-import Contactus from './components/Contactus'
 import Contact from './pages/Contact'
 
 function App() {
